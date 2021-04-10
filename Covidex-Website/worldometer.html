@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>COVIDEX</title>
+</head>
+<body>
+    <section class="sub-header2">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="article.html">ARTICLES</a></li>
+                    <li><a href="worldometer.html">WORLDOMETER</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Corona Cases</h1>
+    </section>
+
+    <!----Worldometer-->
+    <section class="articles">
+        <h1>Database of Covid 19 Patients</h1>
+        
+        <div class="row">
+            <div class="article-col">
+                <img src="images/Worldometer-logo.jpg" alt="">
+                <h3><a href="https://www.worldometers.info/coronavirus/" class="button4">WORLDOMETER</a></h3>
+            </div>
+            <div class="article-col">
+                <img src="images/who-logo.jpg" width="30%" alt="">
+                <h3><a href="https://covid19.who.int/" class="button4">WORLD HEALTH ORGANIZATION</a></h3>
+
+            </div>
+            <div class="article-col">
+                <img src="images/ministry-of-health-and-family-welfare1.jpg"  width="31%" height="50%" alt="">
+               <h3><a href="https://www.mohfw.gov.in/" class="button4">MINISTRY OF HEALTH & FAMILY WELFARE </a></h3>
+            </div>
+
+        </div>
+        <!--------JavaScript for Toggle Menu--------->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+    </script>
+       
+
+
+
+       
+    
+    
+
+    <!---Footer----->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Working for the welfare of the society in this difficult times.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Yorozuya</p>
+    </section>
+
+    
+</body>
+</html>
