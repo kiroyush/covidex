@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1618084347 source:d:\mnnit\covidex assistant\main.cpp
+	<iostream>
+	<windows.h>
+	<mmsystem.h>
+	<stdio.h>
+	<conio.h>
+
